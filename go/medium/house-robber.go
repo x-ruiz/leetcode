@@ -28,8 +28,8 @@ func rob(nums []int) int {
 	return no
 }
 
-func main() {
-	fmt.Println("HELL")
-	nums := []int{2, 7, 9, 3, 1}
-	fmt.Println(rob(nums))
-}
+// func main() {
+// 	fmt.Println("HELL")
+// 	nums := []int{2, 7, 9, 3, 1}
+// 	fmt.Println(rob(nums))
+// }
