@@ -1,3 +1,3 @@
-module x-ruiz.com/go-leetcode
+module xavierruiz
 
-go 1.23.4
+go 1.24.0

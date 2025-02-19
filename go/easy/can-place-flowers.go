@@ -1,4 +1,4 @@
-package main
+package easy
 
 import "fmt"
 
@@ -44,10 +44,10 @@ func canPlaceFlowers(flowerbed []int, n int) bool {
 	return n <= 0
 }
 
-func main() {
-	flowerbed := []int{0, 1, 0}
-	fmt.Println(canPlaceFlowers(flowerbed, 1))
-}
+// func main() {
+// 	flowerbed := []int{0, 1, 0}
+// 	fmt.Println(canPlaceFlowers(flowerbed, 1))
+// }
 
 // 0, 0, 1, 1, 1 1
 // 1, 0, 1, 0, 1 0
