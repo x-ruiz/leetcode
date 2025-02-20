@@ -1,6 +1,8 @@
 package main
 
-import "xavierruiz/easy"
+import (
+	"xavierruiz/easy"
+)
 
 func main() {
 	easy.RemoveDuplicatesFromSortedList()

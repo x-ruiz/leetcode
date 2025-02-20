@@ -21,7 +21,7 @@ func CreateLinkedList(numbers []int) *ListNode {
 	head = &ListNode{Val: numbers[0], Next: nil}
 	current = head
 	// create linked list by iterating through input
-	for _, num := range numbers {
+	for _, num := range numbers[1:] { // first val already added - iterate second val and on
 		fmt.Printf("[INFO] Adding %d to linked list \n", num)
 		newNode := &ListNode{Val: num, Next: nil}
 		current.Next = newNode // update previous next to current node
