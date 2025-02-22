@@ -25,6 +25,9 @@ func RemoveDuplicatesFromSortedList() {
 }
 
 func deleteDuplicates(head *utils.ListNode) *utils.ListNode {
+	if head == nil {
+		return head
+	}
 	fmt.Println("------START------")
 	previous := head
 	current := head.Next
