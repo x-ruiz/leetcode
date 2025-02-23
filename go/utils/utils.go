@@ -19,6 +19,11 @@ func CreateLinkedList(numbers []int) *ListNode {
 
 	// create head
 	head = &ListNode{Val: numbers[0], Next: nil}
+
+	// if length of numbers is 1 return head
+	if len(numbers) == 0 {
+		return head
+	}
 	current = head
 	// create linked list by iterating through input
 	for _, num := range numbers[1:] { // first val already added - iterate second val and on
